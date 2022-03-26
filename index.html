@@ -5,6 +5,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<script language="JavaScript">
+  function processUser()
+  {
+    var parameters = location.search.substring(1).split("&");
+
+    alert(unescape(parameters[0].split("=")[1])) ;
+    alert(unescape(parameters[1].split("=")[1])) ;
+
+  }
+</script>
 </head>
 <body>
 
