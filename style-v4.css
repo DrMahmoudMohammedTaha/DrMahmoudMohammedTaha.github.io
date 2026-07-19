@@ -673,24 +673,18 @@ body.show-all .timeline-item {
    -------------------------------------------------------------------------- */
 @media (max-width: 900px) {
     body {
-        padding-top: 130px; /* Space for the header controls */
+        padding-top: 110px; /* Account for double-deck headers on small displays */
     }
     
     .control-container {
         flex-direction: column;
-        gap: 12px;
+        gap: 10px;
         padding: 10px 16px;
     }
     
     .control-header {
         height: auto;
-        padding: 10px 0;
-    }
-    
-    .header-switchers {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
+        padding: 8px 0;
     }
     
     .cv-wrapper {
@@ -718,102 +712,6 @@ body.show-all .timeline-item {
     
     .header-main .title-area h1 {
         font-size: 28px;
-    }
-}
-
-/* Specific styling for mobile screens (under 600px) */
-@media (max-width: 600px) {
-    body {
-        padding-top: 0 !important; /* Let control header scroll naturally instead of overlapping content */
-    }
-    
-    .control-header {
-        position: relative !important;
-        background-color: var(--primary-color) !important;
-        border-bottom: 2px solid var(--accent-color) !important;
-        box-shadow: none !important;
-        margin-bottom: 15px;
-    }
-    
-    .header-switchers {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-    }
-    
-    .switcher-group {
-        width: 100%;
-        justify-content: space-between;
-    }
-    
-    .view-switcher, .layout-switcher {
-        width: auto;
-    }
-    
-    .btn-toggle, .btn-layout {
-        font-size: 11px;
-        padding: 5px 10px;
-    }
-    
-    .btn-print {
-        width: 100%;
-        justify-content: center;
-        margin-top: 4px;
-    }
-}
-
-/* Specific styling for tiny mobile screens (under 480px) */
-@media (max-width: 480px) {
-    .header-main .title-area h1 {
-        font-size: 22px !important;
-        line-height: 1.2;
-    }
-    
-    .header-main .title-area .subtitle {
-        font-size: 14px !important;
-    }
-    
-    .header-main .title-area .tagline {
-        font-size: 11px !important;
-        line-height: 1.4;
-    }
-    
-    .header-contact {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 8px !important;
-    }
-    
-    .contact-item {
-        font-size: 12px !important;
-    }
-    
-    .cv-header {
-        padding: 24px 16px !important;
-    }
-    
-    .cv-main-content {
-        padding: 24px 16px !important;
-    }
-    
-    .cv-sidebar {
-        padding: 24px 16px !important;
-    }
-    
-    .timeline-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-    }
-    
-    .timeline-date {
-        align-self: flex-start;
-    }
-    
-    .edu-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
     }
 }
 

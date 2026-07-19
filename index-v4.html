@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Mahmoud Taha | AI Engineer & PhD Researcher</title>
+    <meta name="description" content="Professional CV of Dr. Mahmoud Taha - AI Engineer and PhD researcher specializing in Data Science, Computer Vision, and Distributed ETL Systems.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="show-all layout-modern">
+
+    <!-- Interactive Navigation / View Controls (Hidden in Print) -->
+    <header class="control-header no-print">
+        <div class="control-container">
+            <div class="logo-text">CV Portfolio</div>
+            <div class="header-switchers">
+                <div class="switcher-group">
+                    <span class="switcher-label">View:</span>
+                    <div class="view-switcher">
+                        <button class="btn-toggle active" data-view="show-all" onclick="setView('show-all')">Full CV</button>
+                        <button class="btn-toggle" data-view="industry" onclick="setView('industry')">Industry Focus</button>
+                        <button class="btn-toggle" data-view="academic" onclick="setView('academic')">Academic Focus</button>
+                    </div>
+                </div>
+                <div class="switcher-group">
+                    <span class="switcher-label">Style:</span>
+                    <div class="layout-switcher">
+                        <button class="btn-layout active" data-layout="modern" onclick="setLayout('modern')">Modern Sidebar</button>
+                        <button class="btn-layout" data-layout="minimalist" onclick="setLayout('minimalist')">Minimalist Executive</button>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-print" onclick="window.print()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                Print to PDF
+            </button>
+        </div>
+    </header>
+
+    <div class="cv-wrapper">
+        <!-- Main CV Container -->
+        <main class="cv-container">
+            
+            <!-- HEADER SECTION -->
+            <header class="cv-header">
+                <div class="header-main">
+                    <div class="title-area">
+                        <h1>Mahmoud Taha, PhD</h1>
+                        <p class="subtitle">AI Engineer & PhD Researcher</p>
+                        <p class="tagline">Data Science • Computer Vision • Distributed Systems • Deep Learning</p>
+                    </div>
+                </div>
+                <div class="header-contact">
+                    <div class="contact-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <a href="mailto:mahmoud.taha17@feng.bu.edu.eg">mahmoud.taha17@feng.bu.edu.eg</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <a href="tel:+201144010476">+201144010476</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <span>Cairo, Egypt</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        <a href="http://bu.edu.eg/staff/mahmoud.taha" target="_blank">bu.edu.eg/staff/mahmoud.taha</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        <a href="https://linkedin.com/in/DrMahmoudMohammedTaha" target="_blank">in/DrMahmoudMohammedTaha</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <a href="https://github.com/DrMahmoudMohammedTaha" target="_blank">github/DrMahmoudMohammedTaha</a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="cv-grid">
+                
+                <!-- LEFT COLUMN: SKILLS & METADATA -->
+                <aside class="cv-sidebar">
+                    
+                    <!-- PROFILE PICTURE -->
+                    <div class="profile-image-container">
+                        <img class="profile-image" src="img\profile.jpg" alt="Mahmoud Taha" onerror="this.style.display='none'; document.getElementById('profile-avatar-fallback').style.display='flex';">
+                        <div id="profile-avatar-fallback" class="profile-avatar-fallback" style="display: none;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- SUMMARY IN SIDEBAR -->
+                    <section class="sidebar-section">
+                        <h2>Profile Summary</h2>
+                        <p class="profile-text">
+                            AI Engineer and PhD researcher skilled in developing high-performance data science, machine learning, and computer vision solutions. Experienced in building distributed ETL pipelines, productionizing deep learning models, and publishing peer-reviewed research in leading journals.
+                        </p>
+                    </section>
+
+                    <!-- SKILLS SECTION -->
+                    <section class="sidebar-section">
+                        <h2>Technical Skills</h2>
+                        
+                        <div class="skill-category">
+                            <h3>Data Science & ML</h3>
+                            <div class="skill-tags">
+                                <span class="badge">Python</span>
+                                <span class="badge">Pandas</span>
+                                <span class="badge">NumPy</span>
+                                <span class="badge">Matplotlib</span>
+                                <span class="badge">Seaborn</span>
+                                <span class="badge">XGBoost</span>
+                                <span class="badge">Scikit-Learn</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Computer Vision & DL</h3>
+                            <div class="skill-tags">
+                                <span class="badge">OpenCV</span>
+                                <span class="badge">PyTorch</span>
+                                <span class="badge">TensorFlow</span>
+                                <span class="badge">Keras</span>
+                                <span class="badge">YOLO</span>
+                                <span class="badge">GANs</span>
+                                <span class="badge">CNN</span>
+                                <span class="badge">LSTM</span>
+                                <span class="badge">Transformers</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Data Processing & ETL</h3>
+                            <div class="skill-tags">
+                                <span class="badge">Apache Spark</span>
+                                <span class="badge">Kafka</span>
+                                <span class="badge">Apache Airflow</span>
+                                <span class="badge">NiFi</span>
+                                <span class="badge">Flink</span>
+                                <span class="badge">Flume</span>
+                                <span class="badge">Sqoop</span>
+                                <span class="badge">Hadoop (HDFS)</span>
+                                <span class="badge">HBase</span>
+                                <span class="badge">Hive</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Web & App Development</h3>
+                            <div class="skill-tags">
+                                <span class="badge">FastAPI</span>
+                                <span class="badge">Flask</span>
+                                <span class="badge">Node.js</span>
+                                <span class="badge">Angular</span>
+                                <span class="badge">React</span>
+                                <span class="badge">.NET Core</span>
+                                <span class="badge">Blazor</span>
+                                <span class="badge">jQuery</span>
+                                <span class="badge">RESTful APIs</span>
+                                <span class="badge">VBA</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Databases</h3>
+                            <div class="skill-tags">
+                                <span class="badge">Oracle PL/SQL</span>
+                                <span class="badge">PostgreSQL</span>
+                                <span class="badge">MongoDB</span>
+                                <span class="badge">SQL Server</span>
+                                <span class="badge">IBM DB2</span>
+                                <span class="badge">Access DB</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>DevOps & Version Control</h3>
+                            <div class="skill-tags">
+                                <span class="badge">Docker</span>
+                                <span class="badge">Git / GitHub</span>
+                                <span class="badge">Bitbucket</span>
+                                <span class="badge">CircleCI</span>
+                                <span class="badge">Jenkins</span>
+                                <span class="badge">GCP</span>
+                                <span class="badge">AWS</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Tools & Platforms</h3>
+                            <div class="skill-tags">
+                                <span class="badge">MoEngage</span>
+                                <span class="badge">Mixpanel</span>
+                                <span class="badge">Airbridge</span>
+                                <span class="badge">Algolia</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- LANGUAGES -->
+                    <section class="sidebar-section">
+                        <h2>Languages</h2>
+                        <ul class="info-list">
+                            <li><strong>Arabic:</strong> Native</li>
+                            <li><strong>English:</strong> Advanced (IELTS 6.5)</li>
+                            <li><strong>Japanese:</strong> Basic</li>
+                            <li><strong>German:</strong> Basic</li>
+                        </ul>
+                    </section>
+
+                    <!-- PERSONAL DATA -->
+                    <section class="sidebar-section">
+                        <h2>Personal Info</h2>
+                        <ul class="info-list info-compact">
+                            <li><span>Birth Date</span><strong>15 / 2 / 1994</strong></li>
+                            <li><span>Gender</span><strong>Male</strong></li>
+                            <li><span>Nationality</span><strong>Egyptian</strong></li>
+                            <li><span>Military Status</span><strong>Exempted</strong></li>
+                            <li><span>Marital Status</span><strong>Married</strong></li>
+                        </ul>
+                    </section>
+                </aside>
+
+                <!-- RIGHT COLUMN: EXPERIENCE, EDUCATION, PUBLICATIONS -->
+                <div class="cv-main-content">
+                    
+                    <!-- EXPERIENCE SECTION -->
+                    <section class="main-section">
+                        <div class="section-header">
+                            <svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                            <h2>Professional Experience</h2>
+                        </div>
+                        
+                        <div class="timeline">
+                            
+                            <!-- Wafarha -->
+                            <div class="timeline-item industry-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-header">
+                                    <h3>Data Scientist – AI & Automation</h3>
+                                    <span class="timeline-date">2025 – Present</span>
+                                </div>
+                                <div class="timeline-company">Wafarha.</div>
+                                <div class="timeline-body">
+                                    <ul class="exp-points">
+                                        <li><strong>Fraud Detector:</strong> Designed and deployed a fraud detection system using Python, FastAPI, and XGBoost to analyze payment gateway transactions (Paymob, Paytabs) featuring machine learning-driven risk scoring.</li>
+                                        <li><strong>Recommendation Agent:</strong> Programmed a product recommendation engine using Python and FastAPI, leveraging MoEngage user interaction logs to compute item similarity and drive engagement.</li>
+                                        <li><strong>Refund Comment Classifier:</strong> Built a production-ready NLP classification pipeline using Python, FastAPI, and Scikit-learn, utilizing TF-IDF and Logistic Regression to categorize user refund notes.</li>
+                                        <li>Designed and managed distributed data processing workflows utilizing <strong>Apache Spark (PySpark)</strong>, Python, and SQL.</li>
+                                        <li>Utilized the <strong>Hadoop ecosystem</strong> (HDFS, MapReduce, YARN) to store and process large-scale datasets.</li>
+                                        <li>Implemented Big Data warehousing and NoSQL stores using <strong>HBase</strong> and <strong>Hive</strong> for optimized query performance.</li>
+                                        <li>Created streaming and data ingestion pipelines using <strong>Kafka</strong>, <strong>Flume</strong>, and <strong>Sqoop</strong> to ingest data from diverse platforms.</li>
+                                        <li>Automated and orchestrated critical end-to-end data workflows with <strong>Apache Airflow</strong> and <strong>Apache NiFi</strong>.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- GreenMEA -->
+                            <div class="timeline-item industry-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-header">
+                                    <h3>Senior Data Scientist</h3>
+                                    <span class="timeline-date">2024 – Present</span>
+                                </div>
+                                <div class="timeline-company">GreenMEA Co.</div>
+                                <div class="timeline-body">
+                                    <ul class="exp-points">
+                                        <li>Conducted advanced research to engineer robust, scalable computer vision and deep learning models to address challenging industrial tasks.</li>
+                                        <li><strong>Safe Sound (EZZ Steel Co.):</strong> Deployed a YOLO-based safety classifier and fire/smoke detection system utilizing PyTorch and Node.js.</li>
+                                        <li>Integrated face recognition capability into safety modules to associate safety violations with specific worker IDs automatically.</li>
+                                        <li>Engineered an inference microservice using FastAPI, integrating it with MongoDB for fast, asynchronous event logging and state management.</li>
+                                        <li><strong>SR_Enhancer:</strong> Developed a GAN-based super-resolution tool featuring a custom interactive desktop GUI for video/image enhancement, real-time upscaling, and object tracking.</li>
+                                        <li><strong>Workforce Management:</strong> Deployed a custom CNN-based model for optimizing workforce allocation and monitoring shift compliance.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Benha University (Lecturer) -->
+                            <div class="timeline-item academic-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-header">
+                                    <h3>Assistant Lecturer</h3>
+                                    <span class="timeline-date">2017 – Present</span>
+                                </div>
+                                <div class="timeline-company">Benha University & Al Safwa High Institute of Engineering</div>
+                                <div class="timeline-body">
+                                    <ul class="exp-points">
+                                        <li>Lectured undergraduate computer engineering courses, specializing in artificial intelligence, computer vision, and software engineering.</li>
+                                        <li><strong>TNBC Classification:</strong> Developed a Keras CNN model for the classification of selected genes in Triple-Negative Breast Cancer (TNBC).</li>
+                                        <li><strong>Engine Stability Classification:</strong> Built an LSTM neural network utilizing Keras to classify engine stability status, incorporating data augmentation.</li>
+                                        <li><strong>ArmorNet Classification:</strong> Designed and trained a Transformer-based deep neural network to automatically filter inappropriate video and animated cartoon content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Ejada Co -->
+                            <div class="timeline-item industry-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-header">
+                                    <h3>Associate Software Developer</h3>
+                                    <span class="timeline-date">2017 – 2022</span>
+                                </div>
+                                <div class="timeline-company">Ejada Co.</div>
+                                <div class="timeline-body">
+                                    <ul class="exp-points">
+                                        <li><strong>MOH Forensic Medicine Department:</strong> Acted as a .NET Core developer in an Agile environment, engineering microservices and user interfaces utilizing Entity Framework Core and Blazor.</li>
+                                        <li><strong>Saudi National Projects Management System:</strong> Authored custom SharePoint PDP interfaces and responsive extensions using JavaScript and jQuery.</li>
+                                        <li><strong>MCS (Saudi Ministry of Civil Service) portal:</strong> Wrote database unit tests and evaluated complex stored procedures to ensure robust transaction processing.</li>
+                                        <li><strong>Database Development (INMA Bank, Saudi Ministry of Finance, RAJHI Bank, SABB Tanafeeth):</strong> Architected and optimized relational databases, executing stored procedures using PL/SQL, IBM DB2, and MS SQL Server.</li>
+                                        <li><strong>IPO & SADAD Bank Portals:</strong> Implemented single-page applications (SPAs) utilizing Angular, Node.js, and SQL backends.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Freelance -->
+                            <div class="timeline-item industry-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-header">
+                                    <h3>Freelance Developer – Office Automation</h3>
+                                    <span class="timeline-date">Contract</span>
+                                </div>
+                                <div class="timeline-company">Self-Employed</div>
+                                <div class="timeline-body">
+                                    <ul class="exp-points">
+                                        <li>Automated Microsoft Word and Access database integrations using VBA scripts, engineering custom Arabic linguistic proofing utilities.</li>
+                                        <li>Built high-throughput Python scripts for large-scale Arabic text processing and dataset cleaning.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Udagram -->
+                            <div class="timeline-item industry-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-header">
+                                    <h3>Udagram Cloud Web Application</h3>
+                                    <span class="timeline-date">Project</span>
+                                </div>
+                                <div class="timeline-company">Portfolio Showcase</div>
+                                <div class="timeline-body">
+                                    <ul class="exp-points">
+                                        <li>Designed and deployed a full-stack cloud application using React, Node.js, and PostgreSQL.</li>
+                                        <li>Containerized application microservices using Docker, configured JWT authentication, and built automated CI/CD pipelines deployed to AWS.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!-- EDUCATION SECTION -->
+                    <section class="main-section">
+                        <div class="section-header">
+                            <svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+                            <h2>Education</h2>
+                        </div>
+                        
+                        <div class="education-list">
+                            <div class="edu-item academic-item">
+                                <div class="edu-header">
+                                    <h3>PhD in Computer Science and Engineering</h3>
+                                    <span class="edu-date">2023 – 2026</span>
+                                </div>
+                                <div class="edu-school">Egypt Japan University of Science and Technology (EJUST)</div>
+                                <p class="edu-details"><strong>Thesis:</strong> AI-Driven Pedestrian Intention Prediction.</p>
+                            </div>
+
+                            <div class="edu-item">
+                                <div class="edu-header">
+                                    <h3>MSc in Computer System Engineering</h3>
+                                    <span class="edu-date">2017 – 2023</span>
+                                </div>
+                                <div class="edu-school">Benha University – Shoubra Faculty of Engineering</div>
+                                <p class="edu-details"><strong>Thesis:</strong> Automatic Filtering of Inappropriate Video Content.</p>
+                            </div>
+
+                            <div class="edu-item">
+                                <div class="edu-header">
+                                    <h3>Bachelor of Computer Engineering</h3>
+                                    <span class="edu-date">2012 – 2017</span>
+                                </div>
+                                <div class="edu-school">Benha University – Shoubra Faculty of Engineering</div>
+                                <p class="edu-details">
+                                    <strong>Grade:</strong> Excellent with Honor | <strong>Rank:</strong> 1st of class.<br>
+                                    <strong>Graduation Project:</strong> Benha Android Service Android App.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- PUBLICATIONS SECTION -->
+                    <section class="main-section academic-item">
+                        <div class="section-header">
+                            <svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                            <h2>Publications & Peer Review</h2>
+                        </div>
+                        <div class="pub-intro">
+                            <p><strong>Peer Reviewer:</strong> Actively review manuscripts for multiple prestigious international computer science journals and conferences.</p>
+                        </div>
+                        <ul class="pub-list">
+                            <li>
+                                <span class="pub-title">"Pedestrian trajectory and intention prediction: a comprehensive review of models, datasets, and challenges"</span>
+                                <span class="pub-meta"><em>Journal of Ambient Intelligence and Humanized Computing</em>, Springer, 2026.</span>
+                            </li>
+                            <li>
+                                <span class="pub-title">"Deep-PPP: Deep Learning-Driven Pedestrian Pose Pinpointing for Face-Free Human Identification"</span>
+                                <span class="pub-meta"><em>IEEE MultiMedia</em>, IEEE, 2026.</span>
+                            </li>
+                            <li>
+                                <span class="pub-title">"SCOUT-IPAD: Scene-conditioned Counterfactual Online Uncertainty-gated Hypergraph Transformer for Incremental Pedestrian Anomaly Detection Across Dynamic Urban Scenes"</span>
+                                <span class="pub-meta"><em>IEEE Transactions on Biometrics, Behavior, and Identity Science</em>, IEEE, 2026.</span>
+                            </li>
+                            <li>
+                                <span class="pub-title">"Walking stability prediction for pedestrians using gait energy images and hybrid deep and few-shot learning models"</span>
+                                <span class="pub-meta"><em>Scientific Reports</em>, Nature Portfolio, 2026.</span>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- CERTIFICATIONS & COURSES -->
+                    <section class="main-section">
+                        <div class="section-header">
+                            <svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"></polyline></svg>
+                            <h2>Certifications & Extracurriculars</h2>
+                        </div>
+                        <ul class="cert-list">
+                            <li><strong>Generative Adversarial Networks (GANs) Specialization</strong> – Coursera | 2024</li>
+                            <li><strong>Deep Learning Specialization</strong> – Coursera | 2024</li>
+                            <li><strong>CS231n: Convolutional Neural Networks for Visual Recognition</strong> – Stanford University (Audit) | 2024</li>
+                            <li><strong>Advanced Full-Stack Web Development</strong> – Udacity (Egypt FWD) | 2022</li>
+                            <li><strong>Mobile Application Launchpad Graduate</strong> – Udacity (Sponsored by Google) | 2018</li>
+                            <li><strong>Angular & Git Developer Training</strong> – Appenza Studio Software | 2017</li>
+                            <li><strong>ACM ICPC Competitor</strong> – Participated in standard algorithmic contests, excelling in Java and data structures.</li>
+                        </ul>
+                    </section>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Interactive JS to filter views and layouts -->
+    <script>
+        let currentView = 'show-all';
+        let currentLayout = 'layout-modern';
+
+        function setView(viewMode) {
+            currentView = viewMode === 'show-all' ? 'show-all' : 'show-' + viewMode;
+            updateBodyClass();
+            
+            // Update active state in view buttons
+            document.querySelectorAll('.btn-toggle').forEach(btn => {
+                if (btn.getAttribute('data-view') === viewMode) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+        }
+
+        function setLayout(layoutMode) {
+            currentLayout = 'layout-' + layoutMode;
+            updateBodyClass();
+            
+            // Update active state in layout buttons
+            document.querySelectorAll('.btn-layout').forEach(btn => {
+                if (btn.getAttribute('data-layout') === layoutMode) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+        }
+
+        function updateBodyClass() {
+            document.body.className = `${currentView} ${currentLayout}`;
+        }
+    </script>
+</body>
+</html>
