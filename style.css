@@ -673,24 +673,11 @@ body.show-all .timeline-item {
    -------------------------------------------------------------------------- */
 @media (max-width: 900px) {
     body {
-        padding-top: 130px; /* Space for the header controls */
-    }
-    
-    .control-container {
-        flex-direction: column;
-        gap: 12px;
-        padding: 10px 16px;
+        padding-top: 0 !important; /* Remove space since header controls are hidden */
     }
     
     .control-header {
-        height: auto;
-        padding: 10px 0;
-    }
-    
-    .header-switchers {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
+        display: none !important; /* Hide header controls completely on mobile/tablets */
     }
     
     .cv-wrapper {
@@ -718,47 +705,6 @@ body.show-all .timeline-item {
     
     .header-main .title-area h1 {
         font-size: 28px;
-    }
-}
-
-/* Specific styling for mobile screens (under 600px) */
-@media (max-width: 600px) {
-    body {
-        padding-top: 0 !important; /* Let control header scroll naturally instead of overlapping content */
-    }
-    
-    .control-header {
-        position: relative !important;
-        background-color: var(--primary-color) !important;
-        border-bottom: 2px solid var(--accent-color) !important;
-        box-shadow: none !important;
-        margin-bottom: 15px;
-    }
-    
-    .header-switchers {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-    }
-    
-    .switcher-group {
-        width: 100%;
-        justify-content: space-between;
-    }
-    
-    .view-switcher, .layout-switcher {
-        width: auto;
-    }
-    
-    .btn-toggle, .btn-layout {
-        font-size: 11px;
-        padding: 5px 10px;
-    }
-    
-    .btn-print {
-        width: 100%;
-        justify-content: center;
-        margin-top: 4px;
     }
 }
 
