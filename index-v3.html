@@ -87,17 +87,6 @@
                 <!-- LEFT COLUMN: SKILLS & METADATA -->
                 <aside class="cv-sidebar">
                     
-                    <!-- PROFILE PICTURE -->
-                    <div class="profile-image-container">
-                        <img class="profile-image" src="img\profile.jpg" alt="Mahmoud Taha" onerror="this.style.display='none'; document.getElementById('profile-avatar-fallback').style.display='flex';">
-                        <div id="profile-avatar-fallback" class="profile-avatar-fallback" style="display: none;">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <circle cx="12" cy="7" r="4"/>
-                            </svg>
-                        </div>
-                    </div>
-
                     <!-- SUMMARY IN SIDEBAR -->
                     <section class="sidebar-section">
                         <h2>Profile Summary</h2>
@@ -453,7 +442,7 @@
         let currentLayout = 'layout-modern';
 
         function setView(viewMode) {
-            currentView = viewMode === 'show-all' ? 'show-all' : 'show-' + viewMode;
+            currentView = viewMode;
             updateBodyClass();
             
             // Update active state in view buttons
