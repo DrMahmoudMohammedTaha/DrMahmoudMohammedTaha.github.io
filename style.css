@@ -708,61 +708,6 @@ body.show-all .timeline-item {
     }
 }
 
-/* Specific styling for tiny mobile screens (under 480px) */
-@media (max-width: 480px) {
-    .header-main .title-area h1 {
-        font-size: 22px !important;
-        line-height: 1.2;
-    }
-    
-    .header-main .title-area .subtitle {
-        font-size: 14px !important;
-    }
-    
-    .header-main .title-area .tagline {
-        font-size: 11px !important;
-        line-height: 1.4;
-    }
-    
-    .header-contact {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 8px !important;
-    }
-    
-    .contact-item {
-        font-size: 12px !important;
-    }
-    
-    .cv-header {
-        padding: 24px 16px !important;
-    }
-    
-    .cv-main-content {
-        padding: 24px 16px !important;
-    }
-    
-    .cv-sidebar {
-        padding: 24px 16px !important;
-    }
-    
-    .timeline-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-    }
-    
-    .timeline-date {
-        align-self: flex-start;
-    }
-    
-    .edu-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-    }
-}
-
 /* --------------------------------------------------------------------------
    9. Print Stylesheet - Optimization for PDF Generation
    -------------------------------------------------------------------------- */
@@ -861,7 +806,48 @@ body.show-all .timeline-item {
     }
     
     /* Headings for print */
-    .sidebar-section h2 {
+    /* Profile Image */
+.profile-image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    overflow: hidden;
+    border: 3px solid var(--accent-color);
+    box-shadow: var(--shadow-md);
+    background-color: #f1f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-avatar-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e2e8f0;
+    color: var(--secondary-color);
+}
+
+.profile-avatar-fallback svg {
+    width: 65px;
+    height: 65px;
+}
+
+/* Hide profile image in minimalist layout */
+body.layout-minimalist .profile-image-container {
+    display: none !important;
+}
+
+.sidebar-section h2 {
         font-size: 11px !important;
         margin-bottom: 8px !important;
         padding-bottom: 3px !important;
@@ -1048,6 +1034,7 @@ body.show-all .timeline-item {
         page-break-inside: avoid !important;
     }
 }
+
 
 /* ==========================================================================
    10. Minimalist Executive Layout Overrides (Web & Print)
