@@ -6,7 +6,7 @@
 - **Location:** Cairo, Egypt
 - **LinkedIn:** [linkedin.com/in/DrMahmoudMohammedTaha](https://linkedin.com/in/DrMahmoudMohammedTaha)
 - **GitHub:** [github.com/DrMahmoudMohammedTaha](https://github.com/DrMahmoudMohammedTaha)
-- **University Profile:** [bu.edu.eg/staff/mahmoud.taha](http://bu.edu.eg/staff/mahmoud.taha)
+- **University Profile:** [staff.bu.edu.eg/u/mahmoud.taha](https://staff.bu.edu.eg/u/mahmoud.taha)
 
 ---
 
