@@ -82,7 +82,6 @@ Senior Data Scientist, Technical Project Manager, and University Lecturer with a
 - **Software Engineering:** FastAPI, Flask, Node.js, .NET Core, REST APIs, Microservices
 - **Databases & Cloud:** MongoDB, PostgreSQL, Oracle, SQL Server, IBM DB2, AWS, GCP
 - **DevOps & Technical Leadership:** Docker, Git, CI/CD, Production Deployment, Cross-functional Team Leadership
-- **Analytics & Platforms:** MoEngage, Mixpanel, Airbridge, Algolia
 - **Languages:** Arabic (native), English (advanced; IELTS 6.5), Japanese (basic), German (basic)
 
 ---
