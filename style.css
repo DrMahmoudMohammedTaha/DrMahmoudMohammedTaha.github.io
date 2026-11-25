@@ -328,10 +328,19 @@ body.layout-minimalist .profile-image-container {
     padding-bottom: 6px;
 }
 
+.summary-section {
+    text-align: center;
+}
+
+.summary-section h2 {
+    text-align: center;
+}
+
 .profile-text {
     font-size: 13px;
     color: var(--text-primary);
-    line-height: 1.5;
+    line-height: 1.55;
+    text-align: center;
 }
 
 .skill-category {
