@@ -15,7 +15,7 @@ Egypt-Japan University of Science and Technology (EJUST) | Benha University
 ---
 
 ## Professional Summary
-Senior Data Scientist, Technical Project Manager, and University Lecturer with a PhD in Computer Science and Engineering and 9+ years of combined industry and academic experience. Specialized in machine learning, generative AI, computer vision, and data engineering, with experience leading cross-functional teams of 15 professionals and delivering production-grade AI solutions. Published peer-reviewed research in IEEE, Springer, and Nature Portfolio venues, combining scientific research, applied AI engineering, and technical leadership.
+Senior Data Scientist & Technical Project Manager with a PhD in Computer Science and 9+ years of experience across industry and academia. Specialized in Generative AI, Computer Vision, and Data Engineering, leading cross-functional teams of 15 to deploy production AI systems with publications in IEEE, Springer, and Nature Portfolio.
 
 ---
 
